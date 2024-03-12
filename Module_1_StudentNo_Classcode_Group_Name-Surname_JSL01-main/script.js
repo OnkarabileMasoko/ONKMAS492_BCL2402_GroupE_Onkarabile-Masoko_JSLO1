@@ -18,8 +18,8 @@ function validateSyntax() {
 
     // Check if the input matches the regular expression
     if (regex.test(input)) {
-        resultMessage.textContent = "Valid Syntax";
+        resultMessage.innerHTML = "Valid Syntax" + '<span style="color:green; font-size:60px;">&#x25cf</span>';
     } else {
-        resultMessage.textContent = "Invalid Syntax";
+        resultMessage.innerHTML = "Invalid Syntax" + '<span style="color:red; font-size:60px;">&#x25cf</span>';
     }
 }
