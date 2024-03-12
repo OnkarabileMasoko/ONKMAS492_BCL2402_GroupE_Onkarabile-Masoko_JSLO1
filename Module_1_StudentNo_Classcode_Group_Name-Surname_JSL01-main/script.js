@@ -11,7 +11,7 @@ function validateSyntax() {
 
 function validateSyntax() {
     const input = document.getElementById("petInput").value;
-    var resultMessage = document.getElementById("result");
+    const resultMessage = document.getElementById("result");
 
     // Regular expression to match the desired syntax
     const regex = /^pet_[a-zA-Z0-9]+$/;
